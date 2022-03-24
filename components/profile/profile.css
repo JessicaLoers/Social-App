@@ -1,0 +1,32 @@
+.profile__image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #f62e8e;
+}
+
+.profile__header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  background-image: url(https://images.unsplash.com/photo-1576158114131-f211996e9137?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80);
+}
+
+.profile__description {
+  text-align: center;
+}
+
+.profile__description--name {
+  font-weight: var(--fs-bold);
+}
+
+.profile__description--city {
+  font-weight: var(--fw-regular);
+}
+
+.profile__container {
+  width: 100%;
+
+  background-color: var(--clr-neutral-400);
+}
