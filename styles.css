@@ -1,2 +1,4 @@
 @import "./global.css";
 @import "./components/profile/profile.css";
+
+@import "./components/post/post.css";
