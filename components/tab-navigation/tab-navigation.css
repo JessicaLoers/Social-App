@@ -1,6 +1,6 @@
 .tab-navigation {
   border-bottom: 1px solid var(--clr-neutral-200);
-  margin: 0 0 32px 0;
+  margin: 0 24px 32px 24px;
 }
 
 .tab-navigation__list {
