@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  --clr-primary: #f62e8e;
+  --clr-secondary: #2e8af6;
+
+  --clr-neutral-100: #ecebed;
+  --clr-neutral-200: #727477;
+  --clr-neutral-300: #323436;
+  --clr-neutral-400: #181a1c;
+
+  --ff-primary: "Poppins", sans-serif;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fs-semibold: 600;
+  --fs-bold: 700;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+body {
+  background-color: var(--clr-neutral-400);
+  color: var(--clr-neutral-100);
+  font-family: var(--ff-primary);
+}
