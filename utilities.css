@@ -1,0 +1,7 @@
+.bold {
+  font-weight: var(--fs-bold);
+}
+
+.thin {
+  font-weight: var(--fw-thin);
+}

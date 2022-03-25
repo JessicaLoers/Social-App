@@ -10,6 +10,7 @@
   <body>
     <header class="profile__header">
       <div class="profile__container">
+        <div class="profile__hero"></div>
         <img
           class="profile__image"
           src="https://images.unsplash.com/photo-1497994187231-bc847a69dc76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
@@ -17,10 +18,21 @@
         />
       </div>
       <ul class="profile__description" role="list">
-        <li class="profile__description--name">Jane Doe</li>
-        <li class="profile__description--city">Brookly, NY</li>
-        <li class="profile__description--profession">Happy Manager</li>
+        <li class="profile__listitem bold">Jane Doe</li>
+        <li class="profile__listitem thin">Brooklyn, NY</li>
+        <li class="profile__listitem">Happy Manager</li>
       </ul>
+      <section class="profile__nav">
+        <article class="profile__followers">
+          <p>2,467</p>
+          <p class="thin">Followers</p>
+        </article>
+        <article class="profile__followers">
+          <p>1,586</p>
+          <p class="thin">Following</p>
+        </article>
+        <button class="profile__edit">Edit Profile</button>
+      </section>
     </header>
   </body>
 </html>
